@@ -29,6 +29,19 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         <input type="text" name="cf">
         <button type="submit">Submit</button>
     </form>
+    <form action="seeAll.php" method="post">
+        <select name="SortingOrder">
+            <option value="ASC">ASC</option>
+            <option value="DESC">DESC</option>
+        </select>
+        <select name="value">
+            <option value="nome">name</option>
+            <option value="eta">eta</option>
+            <option value="cf">cf</option>
+        </select>
+        <button type="submit">Submit</button>
+
+    </form>
     <br>
     <form action="seeAll.php" method="post">
         <label for="">Serch for Name</label>

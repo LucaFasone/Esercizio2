@@ -29,6 +29,10 @@
             <input type="text" id="indirizzo" name="indirizzo" >
         </div>
         <div>
+            <label for="indirizzo">Eta:</label>
+            <input type="number" id="indirizzo" name="eta" >
+        </div>
+        <div>
             <label for="gender">Genere:</label>
             <select id="gender" name="gender">
                 <option value="M">Maschio</option>
